@@ -28,8 +28,8 @@
 - Необходимо аналогично настроить отслеживание состояния интерфейсов Gi0/0 (для первой группы).
 - Для проверки корректности настройки, разорвите один из кабелей между одним из маршрутизаторов и Switch0 и запустите ping между PC0 и Server0.
 - На проверку отправьте получившуюся схему в формате pkt и скриншот, где виден процесс настройки маршрутизатора.
-![настройка роутеров в Packet Tracer](ссылка на скриншот 1)`
-[Pacter Tracer file]()
+![настройка роутеров в Packet Tracer](https://github.com/Toazter426/keepalived-hw/blob/main/img/CPT%20hsrp.png)
+[Pacter Tracer file](https://github.com/Toazter426/keepalived-hw/blob/main/img/hsrp_hw.pkt)
 
 ---
 
@@ -75,8 +75,8 @@ vrrp_instance VI_1 {
         }
 }
 ```
-![Основной веб сервер](ссылка на скриншот 2)
-![Переход плавучего адреса после удаления index.html]()
+![Основной веб сервер](https://github.com/Toazter426/keepalived-hw/blob/main/img/keepalived_masternginx.png)
+![Переход плавучего адреса после удаления index.html](https://github.com/Toazter426/keepalived-hw/blob/main/img/keepalived_disaster.png)
 
 
 ---
